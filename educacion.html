@@ -22,8 +22,58 @@
       <a href="educacion.html">Formación Académica</a> |
       <a href="experiencia.html">Experiecia Laboral</a>
     </nav>
-    <section>
-
+    <section id="educación">
+      <h2>Educación:</h2>
+      <table border="1">
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>Título</th>
+        </tr>
+        <tr>
+          <td>1995</td>
+          <td>Colegio San Gabriel</td>
+          <td>Quito</td>
+          <td>Bachiller Físico Matemático</td>
+        </tr>
+        <tr>
+          <td>2000</td>
+          <td>Escuela Politécnica del Ejército</td>
+          <td>Santa Clara</td>
+          <td>Analista de Sistemas</td>
+        </tr>
+        <tr>
+          <td>2015</td>
+          <td>Universidad Técnica Particular de Loja</td>
+          <td>Loja</td>
+          <td>Ingeniero Informático</td>
+        </tr>
+      </table>
+      <h3>Agregar estudios:</h3>
+      <form class="" action="index.html" method="post">
+        <label for="anio"><strong>Año: </strong></label>
+        <select class="" name="anio" id="anio">
+            <option value="2008">2008</option>
+            <option value="2009">2009</option>
+            <option value="2010">2010</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018" selected>2018</option>
+        </select></br>
+        <label for="institucion"><strong>Institución: </strong></label>
+        <input type="text" name="institucion" value="" id=institucion></br>
+        <label for="lugar"><strong>Lugar: </strong></label>
+        <input type="text" name="lugar" value="" id=lugar></br>
+        <label for="titulo"><strong>Título: </strong></label>
+        <input type="text" name="titulo" value="" id=titulo></br></br>
+        <input type="submit" name="enviar" value="Enviar" id="enviar">
+      </form>
     </section>
     <footer>
       <h2>Información de Contacto:</h2>
